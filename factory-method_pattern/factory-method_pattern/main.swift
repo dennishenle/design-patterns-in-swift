@@ -8,4 +8,8 @@
 
 import Foundation
 
-print("Hello, World!")
+let nyPizzaStore: PizzaStore = NYPizzaStore()
+let chicagoPizzaStore: PizzaStore = ChicagoPizzaStore()
+
+nyPizzaStore.orderPizza(type: .cheese)
+chicagoPizzaStore.orderPizza(type: .veggie)

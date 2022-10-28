@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		9512AD41290BACC600C4C288 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9512AD40290BACC600C4C288 /* main.swift */; };
+		9512AD48290BAFB300C4C288 /* PizzaStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9512AD47290BAFB300C4C288 /* PizzaStore.swift */; };
+		9512AD4A290BB0E200C4C288 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9512AD49290BB0E200C4C288 /* Pizza.swift */; };
+		9512AD4E290BB48F00C4C288 /* NYPizzaStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9512AD4D290BB48F00C4C288 /* NYPizzaStore.swift */; };
+		9512AD50290BB58700C4C288 /* PizzaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9512AD4F290BB58700C4C288 /* PizzaType.swift */; };
+		9512AD52290BB8B800C4C288 /* ChicagoPizzaStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9512AD51290BB8B800C4C288 /* ChicagoPizzaStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		9512AD3D290BACC600C4C288 /* factory-method_pattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "factory-method_pattern"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9512AD40290BACC600C4C288 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9512AD47290BAFB300C4C288 /* PizzaStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaStore.swift; sourceTree = "<group>"; };
+		9512AD49290BB0E200C4C288 /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		9512AD4D290BB48F00C4C288 /* NYPizzaStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYPizzaStore.swift; sourceTree = "<group>"; };
+		9512AD4F290BB58700C4C288 /* PizzaType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaType.swift; sourceTree = "<group>"; };
+		9512AD51290BB8B800C4C288 /* ChicagoPizzaStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChicagoPizzaStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +67,30 @@
 		9512AD3F290BACC600C4C288 /* factory-method_pattern */ = {
 			isa = PBXGroup;
 			children = (
+				9512AD4B290BB46200C4C288 /* Source */,
 				9512AD40290BACC600C4C288 /* main.swift */,
 			);
 			path = "factory-method_pattern";
+			sourceTree = "<group>";
+		};
+		9512AD4B290BB46200C4C288 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9512AD4C290BB47300C4C288 /* PizzaStores */,
+				9512AD49290BB0E200C4C288 /* Pizza.swift */,
+				9512AD47290BAFB300C4C288 /* PizzaStore.swift */,
+				9512AD4F290BB58700C4C288 /* PizzaType.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		9512AD4C290BB47300C4C288 /* PizzaStores */ = {
+			isa = PBXGroup;
+			children = (
+				9512AD4D290BB48F00C4C288 /* NYPizzaStore.swift */,
+				9512AD51290BB8B800C4C288 /* ChicagoPizzaStore.swift */,
+			);
+			path = PizzaStores;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9512AD48290BAFB300C4C288 /* PizzaStore.swift in Sources */,
+				9512AD52290BB8B800C4C288 /* ChicagoPizzaStore.swift in Sources */,
 				9512AD41290BACC600C4C288 /* main.swift in Sources */,
+				9512AD4A290BB0E200C4C288 /* Pizza.swift in Sources */,
+				9512AD4E290BB48F00C4C288 /* NYPizzaStore.swift in Sources */,
+				9512AD50290BB58700C4C288 /* PizzaType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
