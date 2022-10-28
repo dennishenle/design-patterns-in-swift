@@ -84,8 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				0890916B28E7FA9800A18AA5 /* main.swift */,
-				0890918D28E806FE00A18AA5 /* Strategies */,
 				0890917228E7FAAC00A18AA5 /* Duck.swift */,
+				0890918D28E806FE00A18AA5 /* Behaviors */,
 				0890918628E8035400A18AA5 /* Ducks */,
 			);
 			path = Strategy_Pattern;
@@ -94,7 +94,6 @@
 		0890917828E7FBDC00A18AA5 /* FlyBehaviors */ = {
 			isa = PBXGroup;
 			children = (
-				0890917428E7FB7600A18AA5 /* FlyBehaviorProtocol.swift */,
 				08CCDF9A28E809D90011F3DE /* FlyRocketPowered.swift */,
 				0890917B28E7FD8C00A18AA5 /* FlyWithWings.swift */,
 				0890917D28E7FDF100A18AA5 /* FlyNoWay.swift */,
@@ -105,7 +104,6 @@
 		0890917928E7FC5800A18AA5 /* QuackBehaviors */ = {
 			isa = PBXGroup;
 			children = (
-				0890917628E7FB8400A18AA5 /* QuackBehaviorProtocol.swift */,
 				0890918028E7FEEB00A18AA5 /* Quack.swift */,
 				0890918228E802A500A18AA5 /* MuteQuack.swift */,
 				0890918428E802E000A18AA5 /* Squeak.swift */,
@@ -124,13 +122,15 @@
 			path = Ducks;
 			sourceTree = "<group>";
 		};
-		0890918D28E806FE00A18AA5 /* Strategies */ = {
+		0890918D28E806FE00A18AA5 /* Behaviors */ = {
 			isa = PBXGroup;
 			children = (
+				0890917428E7FB7600A18AA5 /* FlyBehaviorProtocol.swift */,
+				0890917628E7FB8400A18AA5 /* QuackBehaviorProtocol.swift */,
 				0890917928E7FC5800A18AA5 /* QuackBehaviors */,
 				0890917828E7FBDC00A18AA5 /* FlyBehaviors */,
 			);
-			path = Strategies;
+			path = Behaviors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,7 +328,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PU77WLZ346;
+				DEVELOPMENT_TEAM = 732ZY5SX8M;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -339,7 +339,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PU77WLZ346;
+				DEVELOPMENT_TEAM = 732ZY5SX8M;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
