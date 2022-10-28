@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		953921DE290BC18E00B3DF84 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953921DD290BC18E00B3DF84 /* main.swift */; };
+		953921E5290BC64500B3DF84 /* Cocktail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953921E4290BC64500B3DF84 /* Cocktail.swift */; };
+		953921E8290BC6B200B3DF84 /* CocktailDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953921E7290BC6B200B3DF84 /* CocktailDecorator.swift */; };
+		953921EA290BC76E00B3DF84 /* IceDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953921E9290BC76E00B3DF84 /* IceDecorator.swift */; };
+		9567D171290BC9B40095D44C /* CucumberDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9567D170290BC9B40095D44C /* CucumberDecorator.swift */; };
+		9567D173290BCB920095D44C /* LemonDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9567D172290BCB920095D44C /* LemonDecorator.swift */; };
+		9567D175290BCC1A0095D44C /* GoldLeafDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9567D174290BCC1A0095D44C /* GoldLeafDecorator.swift */; };
+		9567D177290BCCB60095D44C /* GinTonic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9567D176290BCCB60095D44C /* GinTonic.swift */; };
+		9567D17A290BD0B90095D44C /* VodkaOrange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9567D179290BD0B90095D44C /* VodkaOrange.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +33,14 @@
 /* Begin PBXFileReference section */
 		953921DA290BC18E00B3DF84 /* decorator-pattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "decorator-pattern"; sourceTree = BUILT_PRODUCTS_DIR; };
 		953921DD290BC18E00B3DF84 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		953921E4290BC64500B3DF84 /* Cocktail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cocktail.swift; sourceTree = "<group>"; };
+		953921E7290BC6B200B3DF84 /* CocktailDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailDecorator.swift; sourceTree = "<group>"; };
+		953921E9290BC76E00B3DF84 /* IceDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceDecorator.swift; sourceTree = "<group>"; };
+		9567D170290BC9B40095D44C /* CucumberDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CucumberDecorator.swift; sourceTree = "<group>"; };
+		9567D172290BCB920095D44C /* LemonDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonDecorator.swift; sourceTree = "<group>"; };
+		9567D174290BCC1A0095D44C /* GoldLeafDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldLeafDecorator.swift; sourceTree = "<group>"; };
+		9567D176290BCCB60095D44C /* GinTonic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GinTonic.swift; sourceTree = "<group>"; };
+		9567D179290BD0B90095D44C /* VodkaOrange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VodkaOrange.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +74,40 @@
 			isa = PBXGroup;
 			children = (
 				953921DD290BC18E00B3DF84 /* main.swift */,
+				953921E6290BC69600B3DF84 /* Source */,
 			);
 			path = "decorator-pattern";
+			sourceTree = "<group>";
+		};
+		953921E6290BC69600B3DF84 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				953921E7290BC6B200B3DF84 /* CocktailDecorator.swift */,
+				953921E4290BC64500B3DF84 /* Cocktail.swift */,
+				9567D178290BD0170095D44C /* Cocktails */,
+				953921EB290BC77400B3DF84 /* Decorators */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		953921EB290BC77400B3DF84 /* Decorators */ = {
+			isa = PBXGroup;
+			children = (
+				953921E9290BC76E00B3DF84 /* IceDecorator.swift */,
+				9567D172290BCB920095D44C /* LemonDecorator.swift */,
+				9567D174290BCC1A0095D44C /* GoldLeafDecorator.swift */,
+				9567D170290BC9B40095D44C /* CucumberDecorator.swift */,
+			);
+			path = Decorators;
+			sourceTree = "<group>";
+		};
+		9567D178290BD0170095D44C /* Cocktails */ = {
+			isa = PBXGroup;
+			children = (
+				9567D176290BCCB60095D44C /* GinTonic.swift */,
+				9567D179290BD0B90095D44C /* VodkaOrange.swift */,
+			);
+			path = Cocktails;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +168,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				953921E5290BC64500B3DF84 /* Cocktail.swift in Sources */,
+				9567D171290BC9B40095D44C /* CucumberDecorator.swift in Sources */,
+				9567D175290BCC1A0095D44C /* GoldLeafDecorator.swift in Sources */,
+				953921EA290BC76E00B3DF84 /* IceDecorator.swift in Sources */,
+				9567D177290BCCB60095D44C /* GinTonic.swift in Sources */,
+				9567D173290BCB920095D44C /* LemonDecorator.swift in Sources */,
 				953921DE290BC18E00B3DF84 /* main.swift in Sources */,
+				953921E8290BC6B200B3DF84 /* CocktailDecorator.swift in Sources */,
+				9567D17A290BD0B90095D44C /* VodkaOrange.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
